@@ -327,21 +327,27 @@ pre>code {
 }
 
 
-@media (max-width: 900px) {
-  .header {
-    display: none;
-  }
+@media (max-width: 901px) {
+    body {
+        margin-top: 0;
+    }
+    .header {
+        height: 30vw;
+        background-image: url(../images/header.gif);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center top;
+    }
 }
 
 @media (min-width: 900px) {
-  body {
-    margin-top: 0;
-  }
-}
-
-.header {
-    height: 250px;
-    background-image: url(../images/blood-r.gif), url(../images/mistletoe.gif), url(../images/blood-l.gif);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top left, center bottom, top right;
+    body {
+        margin-top: 0;
+    }
+    .header {
+        height: 250px;
+        background-image: url(../images/blood-l.gif), url(../images/mistletoe.gif), url(../images/blood-r.gif);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: top left, center bottom, top right;
+    }
 }
